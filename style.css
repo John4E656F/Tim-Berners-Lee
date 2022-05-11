@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+body {
+    background-color: #eaeaeb;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+i{
+    font-size: 20px;
+}
+button {
+    border: none;
+}
+
+section {
+    background-color: #fffefe;
+    box-shadow: -1px 7px 5px -2px rgba(220,221,221,0.75);
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    color: #7f7e80;
+}
+
+section.info{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+/* Personal Info */
+.info {
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    top: 20px;
+    position: relative;
+    border-radius: 100%;
+    border: solid #cdcdcc;
+}
+
+.name{
+    font-weight: 1000;
+    color: #dc5455;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.more-info{
+    text-align: justify;
+}
+
+.profile-btn {
+    width: 130px;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    background-color: #dc5455;
+    border-radius: 5px;
+}
+
+.more-info p {
+    letter-spacing: 1px;
+}
+
+/* Social */
+section.social {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.h3-social{
+    font-weight: 500;
+}
+
+/* Favorite Movies */
+h2{
+    padding-top: 20px;
+    padding-bottom: -20px;
+}
+
+.movie-box {
+ width: 100%;
+ display: grid;
+ grid-template-columns: 0.5fr 1fr;
+ text-align: center;
+ align-content: center;
+ margin-bottom: 30px;
+ padding-right: 20px;
+}
+
+.movie-img{
+    width: 100px;
+    float: left;
+    /* grid-column-start: 1; */
+}
+
+
+.movie-info {
+    font-size: 15px;
+}
+
