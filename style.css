@@ -26,7 +26,7 @@ button {
 section {
     background-color: #fffefe;
     box-shadow: -1px 7px 5px -2px rgba(220,221,221,0.75);
-    width: 35em;
+    width: 100%;
     display: block;
     margin: auto;
     border-radius: 3px;
@@ -127,6 +127,9 @@ h2{
     font-size: 15px;
 }
 
-@media screen {
-    
+@media (min-width: 768px) {
+    section{
+        width: 400px
+    }
 }
+
