@@ -112,11 +112,13 @@ h2{
  grid-template-columns: 0.5fr 1fr;
  text-align: center;
  align-content: center;
+ justify-content: center;
  margin-bottom: 30px;
  padding-right: 20px;
 }
 
 .movie-img{
+    vertical-align: middle;
     width: 100px;
     float: left;
     /* grid-column-start: 1; */
@@ -125,6 +127,10 @@ h2{
 
 .movie-info {
     font-size: 15px;
+}
+
+.movie-text {
+    text-align: left;
 }
 
 @media (min-width: 768px) {
